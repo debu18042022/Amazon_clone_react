@@ -1,0 +1,86 @@
+/* bill generator  */
+
+.bill_main_container{
+    /* border: 1px solid black; */
+    display: grid;
+    place-items: center;
+    /* background-color: #FF9900; */
+    /* height: 100vh; */
+    background-color: aqua;
+    padding-bottom: 20px;
+}
+
+.bill_container{
+    width: 60vw;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(241, 233, 233);
+    margin-bottom: 5px;
+    margin-top: 5px;
+    height: 150px;
+    background-color: #FF9900;
+    color: white;
+}
+
+.bill_container button{
+    margin-right:2px;
+    margin-left: 2px;
+    width: 5vw;
+    background-color:green;
+}
+
+.item_name_container{
+    width:20vw;
+    display: grid;
+    place-items: center;
+}
+
+.amount_container{
+    width: 60vw;
+    border: 1px solid black;
+    display: flex;
+    /* display: grid; */
+    place-items: center;
+}
+
+.Total_amount{
+    width:40vw;
+    height: 5vh;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+    font-weight:bold;
+    font-size: large;
+}
+
+.delete_icons{
+    width:20vw;
+    height: 5vh;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+    font-weight:bold;
+    font-size: large;
+}
+
+.cart_empty_icons{
+    /* border: 1px solid black; */
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+.cart_empty_icons div{
+    width: 50vw;
+    height: 20vw;
+    /* border: 1px solid black; */
+    display: grid;
+    place-items: center;
+}
+.cart_empty_icons i{
+    font-size:10vw;
+}
